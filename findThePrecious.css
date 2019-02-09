@@ -1,0 +1,55 @@
+/**FELLOWS**/
+.row {
+    display: flex;
+}
+
+.card {
+    position: relative;
+}
+
+.card-img-top {
+    opacity: 0.4;
+    width: 100%;
+}
+
+.card-img-overlay {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+
+.reward {
+    font-size: 2.2rem;
+    color: black;
+    background-color: #ffffff;
+    transition: 0.4s ease-out;
+    margin: 25px 100px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.reward span {
+    color: orangered;
+}
+
+.name {
+    font-size: 4.2em;
+    color: white;
+    transition: 0.3s ease-out;
+    margin-top: 150px;
+}
+
+.card:hover .card-img-top {
+    opacity: 1;
+}
+
+.card:hover .reward {
+    display: none;
+}
+
+
+.card:hover .name {
+    margin-top: 500px;
+    font-size: 2em;
+}
